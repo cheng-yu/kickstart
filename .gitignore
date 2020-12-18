@@ -1,3 +1,11 @@
 /.vscode
 /node_modules
+/.next
 ethereum/keys.js
+.next/commons.js
+.next/main.js
+.next/manifest.js
+.next/bundles/pages/_document.js
+.next/bundles/pages/_error.js
+.next/bundles/pages/index.js
+.next/dist/pages/index.js
