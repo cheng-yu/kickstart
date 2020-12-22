@@ -1,10 +1,20 @@
 import React from 'react';
+import { Container } from 'semantic-ui-react';
+import Head from 'next/head';
+import Header from './Header';
 
 export default props => {
     return (
-        <div>
-            <h1>header</h1>
+        <Container>
+            <Head>
+                <link
+                    async
+                    rel="stylesheet"
+                    href="//cdn.jsdelivr.net/npm/semantic-ui@2.2.12/dist/semantic.min.css"
+                />
+            </Head>
+            <Header />
                 {props.children}
-        </div>
+        </Container>
     )
 };
